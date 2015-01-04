@@ -12,7 +12,7 @@ relative_permalinks: true
 title:               Tech Musings
 tagline:             'Tech and other stuff'
 description:         'Mostly note to self'
-url:                 http://pandiaraj.com
+url:                 pandiaraj.github.io
 baseurl:             /
 paginate:            5
 
@@ -24,6 +24,9 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+github:
+  repo:  github.com/pandiaraj/pandiaraj.github.io
 
 # Archive/About pages
 pages_list:
