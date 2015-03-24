@@ -1,35 +1,40 @@
-# Dependencies
-markdown:            redcarpet
-highlighter:         pygments
+# Site settings
+title:       pandiaraj
+email:       pandiaraj@gmail.com
+author:      Pandiaraj
+description: ""
+baseurl:     ""
+url:         "http://pandiaraj.com"
 
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
+# Google analytics
+google_analytics:
 
-# Setup
-title:               Tech Musings
-tagline:             'Tech and other stuff'
-description:         'Mostly note to self'
-url:                 pandiaraj.github.io
-baseurl:             /
-paginate:            5
+# Optional features
+animated:           false
+show_related_posts: false
+show_post_footers:  false
 
-# About/contact
-author:
-  name:              Pandiaraj
-  url:               https://twitter.com/npandiaraj
-  email:             pandiaraj+blog@gmail.com
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
 
-# Custom vars
-version:             1.0.0
+# Social icons
+show_social_icons: true
+github_username: pandiaraj
+stackoverflow_id:
+twitter_username: npandiaraj
+google_plus_id: 
+linkedin_username: pandiaraj
+bitcoin_url:
+angellist_username: 
+paypal_url:
+flattr_button:
 
-github:
-  repo:  github.com/pandiaraj/pandiaraj.github.io
-
-# Archive/About pages
-pages_list:
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'
+# Build settings
+markdown:     redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     10000
+sass:
+  compressed: true
