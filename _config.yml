@@ -1,40 +1,12 @@
 # Site settings
-title:       pandiaraj
-email:       pandiaraj@gmail.com
-author:      Pandiaraj
-description: ""
-baseurl:     ""
-url:         "http://pandiaraj.com"
-
-# Google analytics
-google_analytics:
-
-# Optional features
-animated:           false
-show_related_posts: false
-show_post_footers:  false
-
-# Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname:
-
-# Social icons
-show_social_icons: true
-github_username: pandiaraj
-stackoverflow_id:
-twitter_username: npandiaraj
-google_plus_id: 
-linkedin_username: pandiaraj
-bitcoin_url:
-angellist_username: 
-paypal_url:
-flattr_button:
+title: Pandiaraj's Musings
+email: pandiaraj AT gmail
+description: "Learning notes"
+baseurl: ""
+url: "http://pandiaraj.com"
+github: pandiaraj
+twitter: npandiaraj
 
 # Build settings
-markdown:     redcarpet
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
-paginate:     10000
-sass:
-  compressed: true
+markdown: kramdown
+permalink: pretty
