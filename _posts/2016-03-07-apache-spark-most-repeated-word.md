@@ -3,6 +3,7 @@ layout: post
 title: Apache Spark - Find out most repeated word in a file
 summary: Find out most repeated word in a file using Apache Spark.
 comments: true
+tweet: true
 ---
 We have tried word count example in Apache Spark. 
 
